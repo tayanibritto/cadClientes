@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6ff;
+    padding: 20px;
+    color: #08007a;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #7072ff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 30px;
+    padding: 5px;
+    border: 1px solid #c1ccff;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#cadastrar {
+    background-color: #7072ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #1f2183;
+    text-align: center;
+}
+
+#clientes {
+    list-style-type: decimal;
+    padding-left: 20px;
+    line-height: 2;
+    max-width: 500px;
+    list-style-position: inside;
+}
+
+#clientes li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#clientes button {
+    background-color: #ff2020;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-left: 16px;
+}
+
