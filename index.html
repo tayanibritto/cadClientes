@@ -10,7 +10,7 @@
     <main>
         <h1>Cadastro de Clientes</h1>
         <form id="formCliente">
-            <label for="name">Nome:</label>
+            <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required>
             
             <label for="email">E-mail:</label>
@@ -19,13 +19,24 @@
             <button type="submit" id="cadastrar">Cadastrar</button>
         </form>
 
+        <section id="buscarCliente">
+
+                <label for="buscar">Procurar por um cliente cadastrado:</p>
+                <input type="text" id="buscar" placeholder="Digite o nome do cliente">
+
+                <button type="submit" id="pesquisar">Pesquisar</button>
+                <button type="button" id="mostrarTodos" disabled>Mostrar Todos</button>
+
+        </section>
+
         <section id="listaClientes">
             <h2>Clientes Cadastrados</h2>
+
             <ul id="clientes">
                 <!-- Os clientes cadastrados aparecerão aqui -->
             </ul>
         </section>
     </main>
-    <script src="scripts.js" defer></script>
+    <script src="/scripts/app.js" type="module"></script>
 </body>
 </html>
